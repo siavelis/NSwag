@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26228.12
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwag.CodeGeneration", "NSwag.CodeGeneration\NSwag.CodeGeneration.csproj", "{75B3F91D-687E-4FB3-AD45-CCFA3C406DB4}"
 EndProject
@@ -118,6 +118,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwag.Demo.Web", "NSwag.Demo.Web\NSwag.Demo.Web.csproj", "{37AE85DE-B127-4861-B925-1A67A35F314A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwag.VersionMissmatchTest", "NSwag.VersionMissmatchTest\NSwag.VersionMissmatchTest.csproj", "{8B57755E-2868-434D-A008-45CE2EDBD879}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NSwag.Core.net45", "NSwag.Core.net45\NSwag.Core.net45.csproj", "{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -681,6 +683,24 @@ Global
 		{8B57755E-2868-434D-A008-45CE2EDBD879}.ReleaseTypeScriptStrict|x64.Build.0 = Release|Any CPU
 		{8B57755E-2868-434D-A008-45CE2EDBD879}.ReleaseTypeScriptStrict|x86.ActiveCfg = Release|Any CPU
 		{8B57755E-2868-434D-A008-45CE2EDBD879}.ReleaseTypeScriptStrict|x86.Build.0 = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Debug|x64.Build.0 = Debug|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Debug|x86.Build.0 = Debug|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Release|x64.ActiveCfg = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Release|x64.Build.0 = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Release|x86.ActiveCfg = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.Release|x86.Build.0 = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.ReleaseTypeScriptStrict|Any CPU.ActiveCfg = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.ReleaseTypeScriptStrict|Any CPU.Build.0 = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.ReleaseTypeScriptStrict|x64.ActiveCfg = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.ReleaseTypeScriptStrict|x64.Build.0 = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.ReleaseTypeScriptStrict|x86.ActiveCfg = Release|Any CPU
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D}.ReleaseTypeScriptStrict|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -721,5 +741,6 @@ Global
 		{A3ADF5C1-1675-4699-8BD5-7F7BC526259E} = {0AF934BD-80BE-483E-BCB7-D9B3F7B816E3}
 		{37AE85DE-B127-4861-B925-1A67A35F314A} = {CCE905FB-0DE1-4A8A-89AE-D84E9367D35C}
 		{8B57755E-2868-434D-A008-45CE2EDBD879} = {F31829C6-CEE4-4242-A4D9-820C36127B0B}
+		{CA66DAB1-2A22-43E1-8F3D-EF02A3EF778D} = {1030C3AA-7549-473B-AA7E-5DFAC2F9D37A}
 	EndGlobalSection
 EndGlobal
